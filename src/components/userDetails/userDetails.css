@@ -1,0 +1,28 @@
+.odd-even-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .odd-even-table th, .odd-even-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  .odd-even-table tr:hover {
+    background-color: #d9edf7;
+  }
+  .edit-btn{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .delete-btn{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  }
